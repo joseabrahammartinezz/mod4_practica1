@@ -1,5 +1,4 @@
 const fs = require("fs");
-const Product = require("../models/Product");
 
 exports.getAllProducts = (req, res) => {
   const products = JSON.parse(
